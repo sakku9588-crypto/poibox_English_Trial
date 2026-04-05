@@ -20,4 +20,4 @@ https://www.dropbox.com/scl/fi/0dx5ak1jswtu77vy5evox/PoiBox_trial_en_v1.zip?rlke
 - No Python required! Just run it!
 
 【Contact / Feedback】
-GitHub Issues: https://github.com/xxxx/xxxx/issues
+GitHub Issues: https://github.com/sakku9588-crypto/poibox_English_Trial/issues
