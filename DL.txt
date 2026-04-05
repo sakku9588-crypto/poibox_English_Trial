@@ -1,0 +1,23 @@
+【Download URL】
+https://www.dropbox.com/scl/fi/0dx5ak1jswtu77vy5evox/PoiBox_trial_en_v1.zip?rlkey=sncoy5c9lo5vc90hexkemxhss&st=9l3yjfco&dl=1
+
+【File Information】
+- File name: PoiBox_trial_en_v1.zip
+- Size: XX MB
+- Updated: 2026/04/05
+
+【Package Contents】
+- PoiBox_Analysis_trial.exe : Past archive analysis
+- PoiBox_Live_trial.exe : Real-time live commentary support
+- PoiBox_Video&Shorts_trial.exe : Short video trend catching
+
+【Trial Limitations】
+- 30-day trial period
+- Maximum 5 launches
+
+【System Requirements】
+- Windows 10 / 11
+- No Python required! Just run it!
+
+【Contact / Feedback】
+GitHub Issues: https://github.com/xxxx/xxxx/issues
