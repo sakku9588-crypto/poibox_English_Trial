@@ -1,76 +1,38 @@
-PoiBox - English Trial Edition 🐾
-Turn your stream into a game.
-Every comment becomes points. Every fan feels part of the show.
-
-🎯 Who is this for?
-Small to mid-tier streamers (5~100 concurrent viewers)
-
-Creators who want real engagement instead of just chasing Super Chats
-
-Streamers who believe that watching, chatting, and sharing are also valuable support
-
-✨ What you can try in this Trial
-Real-time comment → Point system with beautiful OBS overlay
-
-AI Strategist "JemiNeko" analyzes your community and gives advice
-
-Auto point sync to Google Sheets
-
-AI Video Sniper & Director (limited functions in trial)
-
-Trial Limit: 5 launches or 14 days from first start.
-
-🐾 Our Philosophy
-We believe that support comes in many forms — not just money.
-
-Watching the stream, dropping a casual "Yah!", participating in games, sharing clips, or simply being there consistently…
-All of these actions are real support that keeps a small streamer going.
-
-In the streaming world, it's easy to measure value only by money.
-But we wanted to create a tool that celebrates every kind of passion from the community.
-
-That's why PoiBox turns all forms of engagement into "Oshi Points".
-
-We're a tiny indie team at Sakuramori Lab.
-This tool was born from our own experience of streaming to small audiences (5~30 concurrent viewers).
-We know how lonely it can feel when the chat is quiet.
-
-Our goal is simple:
-Turn silent streams into lively, game-like experiences — where every comment matters, and every fan feels like they're part of something growing together.
-
-If you're a small or mid-tier streamer who wants to build a warm, engaged community…
-We made PoiBox for you.
-
-We'd be incredibly happy if this tool helps even a little bit with your streaming journey.
-
-📥 Quick Start (3 steps)
-Download and extract the zip
-
-Put your credentials.json (Google Service Account) in the same folder
-
-Run the executable
-
-Detailed guides are included inside the zip (📘 Quick Start Guide folders).
-
-⚠️ Important Notes
-This executable is compiled with Cython for performance and protection.
-
-Some antivirus software may show a warning for any compiled Python executable. This is a common false positive.
-
-Trial version is fully functional but limited to 5 launches or 14 days.
-
-After the trial ends, you can purchase the full unlimited version.
-
-📬 Feedback & Contact
-We'd love to hear from you!
-
-Bug reports
-
-Feature requests
-
-Just "It worked!" messages
-
-Made with ❤️ for indie streamers by Sakuramori Lab 🦇
-
-Thank you for trying PoiBox!
-Let's make your stream more fun together 🐾
+📦 Poibox Ecosystem (v15.0 PRO)
+Developed by Sakku at Sakuramori Lab, Poibox has evolved from a simple reward automation tool into a full-scale AI-driven content and community management ecosystem. This suite leverages the latest Google Gemini AI, YouTube APIs, and OBS integration to automate the "boring" parts of being a creator.
+🐱 The Sakuneko Philosophy
+"Maximum rewards, minimum effort."
+Whether you are farming points, managing a 24/7 live stream, or hunting for viral clips, Poibox is your digital command center.
+🚀 Core Components
+1. 🎯 Poibox Sniper (Sniper V5.0 PRO)
+File: sniper_en_t 2.py
+• What it does: Uses Gemini 2.0 Flash to scan hours of video content at 5x speed to find "viral" or "exciting" moments automatically.
+• Key Feature: Outputs a JSON structure of the best scenes with high scores, ready for social media export.
+2. 🎬 AI Director (AIdirector V14.0 PRO)
+File: AIdirector_en_t.py
+• What it does: Acts as a world-class video editor. It doesn't just find clips; it structures them following viral "Hook-Build-Peak" storytelling patterns.
+• Key Feature: Automated FFmpeg-based cutting and concatenation of highlight reels.
+3. 📡 Poibox Live (Live v5.2)
+File: live_en.py
+• What it does: Real-time monitoring of YouTube Live chats. It integrates with OBS WebSocket v5 to trigger scenes/alerts based on chat activity.
+• Key Feature: Seamlessly syncs live viewer data to Google Sheets for immediate analytics.
+4. 📊 Community Analysis Engine
+Files: analysis.py, shorts_en_t.py
+• What it does: Aggregates viewer data, calculates attendance, and assigns "Loyalty Points" to your community members.
+• Key Feature: Database-backed rankings that help identify your most active fans and potential trolls (Smurf/Troll detection integration).
+🏗️ Technical Architecture
+• AI Engine: Google GenAI (Gemini 2.0 Flash / 1.5 Pro)
+• GUI: Modern, dark-mode interfaces powered by customtkinter.
+• Database: SQLAlchemy / SQLite for robust local data tracking.
+• Integration: OBS WebSocket v5, Google Sheets API, YouTube Data API v3.
+• Security: Fernet-based encryption for API keys and service credentials.
+🛠️ Setup & Trial
+Most modules in the Poibox suite come with a built-in trial system (HWID-bound) for secure distribution.
+1.	Install requirements: pip install customtkinter google-genai pytchat gspread oauth2client yt-dlp
+2.	Ensure ffmpeg is installed in your system PATH.
+3.	Place your credentials.json (Google) and gemini_api_key.txt in the root folder.
+4.	Run main.py or individual components as needed.
+🐈 Developer's Note
+"Poibox is the culmination of years of 'Poikatsu' and community management experience. We don't just build tools; we build digital assistants that think like humans but work like machines."
+👉 Official Website: Sakuramori Lab
+Empowering the next generation of creators.
