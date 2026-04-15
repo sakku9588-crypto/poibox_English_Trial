@@ -36,3 +36,4 @@ Most modules in the Poibox suite come with a built-in trial system (HWID-bound) 
 "Poibox is the culmination of years of 'Poikatsu' and community management experience. We don't just build tools; we build digital assistants that think like humans but work like machines."
 👉 Official Website: Sakuramori Lab
 Empowering the next generation of creators.
+*"Development made easy thanks to a certain cat's magic."* 🐈✨
